@@ -1,1 +1,1 @@
-# The Odin Project flexbox project landing page c
+# The Odin Project flexbox project landing page
