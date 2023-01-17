@@ -7,43 +7,47 @@
     <title>My FlexSite</title>
 </head>
 <body>
-    <div class="container">
-
         <!-- Start Of Nav-Bar -->
-        
+    <header class="headings">
         <nav class="nav-bar">
-            <div class="header-logo">Header</div>
-            <div class="nav-links">
-            <ul>
-              <li>header link one</li>
-              <li>header link two</li>
-              <li>header link three</li>
-            </ul>
-            </div>
-        </nav>
-        
-        <!-- End Of Nav-Bar -->
-        <!-- Start Of Heading & Main-title -->
+            <div class="logo">Header</div>
+            <input type="checkbox" class="hamburger__box"> 
+           <div class="hamburger__menu">
+              <span class="hamburger__line line__1"></span>
+              <span class="hamburger__line line__2"></span>
+              <span class="hamburger__line line__3"></span>
+           </div>
 
+            <ul class="nav-items">
+              <li class="nav-item"><a class="nav--links" href="#">header link one</a></li>
+              <li class="nav-item"><a class="nav--links" href="#">header link two</a></li>
+              <li class="nav-item"><a class="nav--links" href="#">header link three</a></li>
+            </ul>
+        </nav>      
+        <!-- End Of Nav-Bar -->
+
+        <!-- Start Of Heading & Main-title -->
         <div class="main-title">
-        <div class="hero-main-text">This website is awesome</div>
+            <div>
+                <h1 class="hero-main-text">This website is awesome</h1>
+                <p class="secondary-text">
+                    This website has some subtext that goes here under the main 
+                    tittle. It's a smaller font and the color is lower contrast
+                </p>
+                <button class="btn">Sign up</button>
+             </div>
+        
         <img class="image" src="https://images.pexels.com/photos/1480690/pexels-photo-1480690.jpeg?cs=srgb&dl=pexels-sebastiaan-stam-1480690.jpg&fm=jpg" alt="man standing in the darkness">
          </div>
-         <div class="subtext">
-            <div class="secondary-text">
-                This website has some subtext that goes here under the main 
-                tittle. It's a smaller font and the color is lower contrast
-            </div>
-            <button class="sgn-up-button">Sign up</button>
-         </div>
-
+        
+        </header>
         <!-- End Of Heading & Main-title -->
     </div>
     <!-- Start of the main content -->
     <main>
         <div class="content-container">
-         <div class="bold-text">Some random information.</div>
-         <div class="random-img">
+         <h2 class="bold-text">Some random information.</h2>
+         <div class="random-img-container">
          <figure class="blue-mask">
             <img src="https://images.pexels.com/photos/1516202/pexels-photo-1516202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" man with a blue lit mask">
             <figcaption>this is some subtext under an illustration or image</figcaption>
@@ -70,15 +74,16 @@
                 <figcaption class="caption">—Thor, <cite>God Of Thunder</cite></figcaption>
             </figure>
          </div>
+
           <div class="product-signup">
              <div class="container-signup">
-               <p class="bolder-text">Call to action! It's time!</p>
-                <button class="Signup-button">Sign up</button>
+               <h3>Call to action! It's time!</h3>
+               <p>Sign up for our product by clicking that button 
+                right over there!</p>
                </div>
-               <p class="smaller-subtext">Sign up for our product by clicking that button 
-                right over there!
-            </p>
+               <button class="btn sign__btn">Sign up</button>
             </div>
+
           <footer class="footer-container">
             <div class="copyright">
                 <p> Copyright <span>&#169;</span> This Odin Project 2022 </p>
