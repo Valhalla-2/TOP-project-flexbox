@@ -45,6 +45,8 @@ html, body {  /*setting up the width & height according to the viewport*/
 body {
     background: rgba(255, 255, 255, 0.767);
     font-family: 'Roboto' , Arial, Helvetica, sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header.headings {
