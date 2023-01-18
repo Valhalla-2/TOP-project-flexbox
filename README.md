@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://github.com/Valhalla-2/TOP-project-flexbox)
-- Live Site URL: [here](https://chat-app-to-frontend.netlify.app/)
+- Live Site URL: [here](https://flexbox-project-landing-page.netlify.app/)
 
 ## My process
 
